@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modification>
-        <id>Replace 123 with ABC</id>
+        <id>Replace short date config</id>
         <version>1.0.0</version>
         <vqmver>1.0.9</vqmver>
-        <author>qphoria</author>
+        <author>insaineyesay</author>
         
-        <file name="../../admin/language/english/english.php">
+        <file name="admin/language/english/english.php">
                 <operation>
                 
                         <search position="replace"><![CDATA[
