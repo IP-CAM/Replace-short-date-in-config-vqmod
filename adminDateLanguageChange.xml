@@ -6,16 +6,18 @@
         <author>insaineyesay</author>
         
         <file name="admin/language/english/english.php">
-                <operation>
-                
-                        <search position="replace"><![CDATA[
-                        'd/m/Y';
-                        ]]></search>
-                        
-                        <add><![CDATA[
-                        'm/d/Y';
-                        ]]></add>
-                        
+                <operation>                
+                        <search position="replace">'d/m/Y';</search>
+                        <add>'m/d/Y';</add>                        
                 </operation>
         </file> 
+        <file name="catalog/language/english/english.php">
+                <operation>
+                        <search position="replace">'d/m/Y';</search>
+                        <add>'m/d/Y';</add>
+                </operation>
+                <operation>
+                        <search position="replace">'l ds F Y';</search>
+                        <add>'l, F j, Y';</add>
+
 </modification>
