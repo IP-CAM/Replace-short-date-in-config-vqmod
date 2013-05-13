@@ -9,11 +9,11 @@
                 <operation>
                 
                         <search position="replace"><![CDATA[
-                        $_['date_format_short'] = 'd/m/Y';
+                        'd/m/Y';
                         ]]></search>
                         
                         <add><![CDATA[
-                        $_['date_format_short'] = 'm/d/Y';
+                        'm/d/Y';
                         ]]></add>
                         
                 </operation>
